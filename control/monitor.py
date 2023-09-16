@@ -49,7 +49,7 @@ def analyze_data():
         print(datetime.now(), "check_value {} {}".format(variable, item["check_value"]))
         if item["check_value"] > max_value or item["check_value"] < min_value:
             alert = True
-        elif item["check_value"] > (max_value * 0.9):
+        elif item["check_value"] > (min_value + (max_value-min_value)*0.8):
             alertReto = True
 
         if alert or alertReto:
