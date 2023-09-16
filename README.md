@@ -125,4 +125,4 @@ Del lado de la capa de dispositivos, se evidencia la nueva alerta en el log:
 
 y en el comportamiento del actuador implementado, un led para  nuestro caso:
 
-<video src="images/video-actuador.mp4" controls="controls" width="45%" height="45%"> </video>
+[<img src="images/reto5-capa-dispositivo-led.jpg" width="72%" height="72%">](images/video-actuador.mp4 "video-actuador-reto5")
